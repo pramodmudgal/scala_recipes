@@ -16,3 +16,8 @@ from src/main/scala and src/main/java
 help <command> ------- Displays	detailed	help	for	the	specified	command.	If	no command	is	provided,	displays	brief	descriptions	of	all commands
 reload ------- Reloads	the	build	definition (build.sbt, project/.scala, project/.sbt files).	Needed	if	you change	the	build	definition.
 update ------- Download	any	of	the	dependencies	that	are	required	by your	project
+
+
+###Test only one class
+sbt testOnly com.mudgal.SetFreeSpec
+sbt testOnly com.mudgal.SetFreeSpec -- -z "should have size 0"
