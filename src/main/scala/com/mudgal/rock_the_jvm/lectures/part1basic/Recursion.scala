@@ -37,6 +37,7 @@ object Recursion extends App {
   println(concat(3, "hello", ""))
 
   def isPrime(n: Int): Boolean = {
+    @tailrec
     def isPrimeUntil(t: Int, isStillPrime: Boolean): Boolean =
       if (!isStillPrime) false
       else if (t <= 1) true
