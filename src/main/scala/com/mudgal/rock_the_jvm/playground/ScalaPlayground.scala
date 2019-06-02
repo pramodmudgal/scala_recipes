@@ -1,4 +1,4 @@
-package com.mudgal.playground
+package com.mudgal.rock_the_jvm.playground
 
 object ScalaPlayground extends App{
 

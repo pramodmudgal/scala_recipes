@@ -1,4 +1,4 @@
-package com.mudgal.lectures.part1basics
+package com.mudgal.rock_the_jvm.lectures.part1basic
 
 object ValuesVariablesTypes extends App {
   val x: Int = 42
