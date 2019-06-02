@@ -29,9 +29,9 @@ object Recursion extends App {
   }
 
   @tailrec
-  def concat(num: Int, str: String, accu: String): String = {
-    if (num < 1) accu
-    else concat(num - 1, str, str + accu)
+  def concat(num: Int, str: String, accumulator: String): String = {
+    if (num < 1) accumulator
+    else concat(num - 1, str, str + accumulator)
   }
 
   println(concat(3, "hello", ""))
